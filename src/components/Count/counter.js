@@ -1,8 +1,4 @@
-// import { Fragment } from 'react';
-
 import React, { useState } from 'react';
-
-import './counter.css';
 
 const Counter = () => {
   const [up, setUp] = useState(0);
@@ -24,20 +20,22 @@ const Counter = () => {
   };
 
   return (
-    <div className='out'>
-      <div className='input'>{up}</div>
+    <div className='center'>
+      <div className='center w-52 h-40 border-2 border-white mt-80'>
+        <div className=''>{up}</div>
 
-      <button className='increasese' onClick={add}>
-        +
-      </button>
+        <button className='' onClick={add}>
+          +
+        </button>
 
-      <button className='decreasese' onClick={away}>
-        -
-      </button>
+        <button className='' onClick={away}>
+          -
+        </button>
 
-      <button onClick={reset} className='reset'>
-        Click here to reset
-      </button>
+        <button onClick={reset} className=''>
+          Click here to reset
+        </button>
+      </div>
     </div>
   );
 };

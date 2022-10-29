@@ -15,10 +15,13 @@ a {
   box-sizing: border-box;
 }
 body {
-  background-color: #181818;
+  background-color: black;
   /* color: white; */
 }
 @layer components {
+  .center {
+    @apply flex flex-col items-center justify-center;
+  }
 }
 @tailwind base;
 @tailwind components;
