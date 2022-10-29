@@ -12,7 +12,7 @@ const Counter = () => {
   };
 
   const reset = () => {
-    window.location.reload(false);
+    setUp(0);
   };
 
   return (
