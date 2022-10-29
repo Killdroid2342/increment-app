@@ -21,16 +21,17 @@ const Counter = () => {
 
   return (
     <div className='center'>
-      <div className='center w-52 h-40 border-2 border-white mt-80'>
-        <div className=''>{up}</div>
+      <div className='center w-52 h-48 border-2 border-white mt-80'>
+        <div className='border-2 border-white pl-4 pr-4'>{up}</div>
+        <div>
+          <button className='btn pl-3 pr-3 mr-4' onClick={add}>
+            +
+          </button>
 
-        <button className='' onClick={add}>
-          +
-        </button>
-
-        <button className='' onClick={away}>
-          -
-        </button>
+          <button className=' btn pl-3.5 pr-3.5 mb-7' onClick={away}>
+            -
+          </button>
+        </div>
 
         <button onClick={reset} className=''>
           Click here to reset
