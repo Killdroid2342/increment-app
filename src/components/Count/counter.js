@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Counter = () => {
   const [up, setUp] = useState(0);
+
+  useEffect(() => {
+    document.title = `On this tab, you are on ${up}`;
+  });
 
   const add = () => {
     setUp(up + 1);
@@ -17,8 +21,8 @@ const Counter = () => {
 
   return (
     <div className='center'>
-      <div className='center w-60 h-48 border-2 border-white mt-80'>
-        <div className='border-2 border-white pl-4 pr-4'>{up}</div>
+      <h1 className='text-3xl mt-52'>You are on {up}</h1>
+      <div className='center w-60 h-48 border-2 border-white mt-20'>
         <div>
           <button className='btn pl-3 pr-3 mr-4' onClick={add}>
             +
