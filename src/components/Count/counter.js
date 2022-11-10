@@ -5,7 +5,7 @@ const Counter = () => {
 
   useEffect(() => {
     document.title = `On this tab, you are on ${up}`;
-  });
+  }, [up]);
 
   const add = () => {
     setUp(up + 1);
