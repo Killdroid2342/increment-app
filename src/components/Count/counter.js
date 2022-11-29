@@ -71,7 +71,10 @@ const Counter = () => {
             - 10
           </button>
         </div>
-        <button onClick={reset} className='border-2 border-white pl-3 pr-3'>
+        <button
+          onClick={reset}
+          className='border-2 border-white p-2 font-bold rounded-md'
+        >
           Click here to reset
         </button>
       </div>
