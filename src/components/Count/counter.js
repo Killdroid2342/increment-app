@@ -7,11 +7,14 @@ const Counter = () => {
     document.title = `On this tab, you are on ${up}`;
   }, [up]);
 
-  const add = () => {
+  const addOne = () => {
     setUp(up + 1);
   };
 
-  const away = () => {
+  const addFive = () => {
+    setUp(up + 5);
+  };
+  const awayOne = () => {
     setUp(up - 1);
   };
 
@@ -22,13 +25,16 @@ const Counter = () => {
   return (
     <div className='center'>
       <h1 className='text-3xl mt-52'>You are on {up}</h1>
-      <div className='center w-60 h-48 border-2 border-white mt-20'>
+      <div className='center p-10 h-48 border-2 border-white mt-20'>
         <div>
-          <button className='btn pl-3 pr-3 mr-4' onClick={add}>
-            +
+          <button className='btn pl-3 pr-3 mr-4' onClick={addOne}>
+            + 1
           </button>
-          <button className=' btn pl-3.5 pr-3.5 mb-7' onClick={away}>
-            -
+          <button className=' btn pl-3.5 pr-3.5 mb-7 mr-4' onClick={addFive}>
+            + 5
+          </button>
+          <button className=' btn pl-3.5 pr-3.5 mb-7' onClick={awayOne}>
+            - 1
           </button>
         </div>
         <button onClick={reset} className='border-2 border-white pl-3 pr-3'>
