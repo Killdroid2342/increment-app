@@ -20,7 +20,7 @@ const Counter = () => {
     setUp(up - 1);
   };
   const awayFive = () => {
-    setUp(up + 5);
+    setUp(up - 5);
   };
   const awayTen = () => {
     setUp(up - 10);
