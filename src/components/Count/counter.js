@@ -10,7 +10,6 @@ const Counter = () => {
   const addOne = () => {
     setUp(up + 1);
   };
-
   const addFive = () => {
     setUp(up + 5);
   };
@@ -23,7 +22,9 @@ const Counter = () => {
   const awayFive = () => {
     setUp(up + 5);
   };
-
+  const awayTen = () => {
+    setUp(up - 10);
+  };
   const reset = () => {
     setUp(0);
   };
@@ -62,6 +63,12 @@ const Counter = () => {
             onClick={awayFive}
           >
             - 5
+          </button>
+          <button
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
+            onClick={awayTen}
+          >
+            - 10
           </button>
         </div>
         <button onClick={reset} className='border-2 border-white pl-3 pr-3'>
