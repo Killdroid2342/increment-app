@@ -43,10 +43,16 @@ const Counter = () => {
             + 5
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
             onClick={awayOne}
           >
             - 1
+          </button>
+          <button
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
+            onClick={awayFive}
+          >
+            - 5
           </button>
         </div>
         <button onClick={reset} className='border-2 border-white pl-3 pr-3'>
