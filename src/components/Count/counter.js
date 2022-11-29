@@ -14,6 +14,9 @@ const Counter = () => {
   const addFive = () => {
     setUp(up + 5);
   };
+  const addTen = () => {
+    setUp(up + 10);
+  };
   const awayOne = () => {
     setUp(up - 1);
   };
@@ -30,7 +33,10 @@ const Counter = () => {
       <h1 className='text-3xl mt-52'>You are on {up}</h1>
       <div className='flex flex-col items-center justify-center p-10 h-48 border-2 border-white mt-20'>
         <div>
-          <button className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'>
+          <button
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'
+            onClick={addTen}
+          >
             + 10
           </button>
           <button
