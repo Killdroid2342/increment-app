@@ -23,24 +23,24 @@ const Counter = () => {
   };
 
   return (
-    <div className='center'>
+    <div className='flex flex-col items-center justify-center'>
       <h1 className='text-3xl mt-52'>You are on {up}</h1>
-      <div className='center p-10 h-48 border-2 border-white mt-20'>
+      <div className='flex flex-col items-center justify-center p-10 h-48 border-2 border-white mt-20'>
         <div>
           <button
-            className=' border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'
             onClick={addOne}
           >
             + 1
           </button>
           <button
-            className='  border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
             onClick={addFive}
           >
             + 5
           </button>
           <button
-            className='  border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
             onClick={awayOne}
           >
             - 1
