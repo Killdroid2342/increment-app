@@ -4,7 +4,7 @@ const Counter = () => {
   const [up, setUp] = useState(0);
 
   useEffect(() => {
-    document.title = `On this tab, you are on ${up}`;
+    document.title = `Your Current Number Is ${up}`;
   }, [up]);
 
   const addOne = () => {
@@ -31,8 +31,8 @@ const Counter = () => {
 
   return (
     <div className='flex flex-col items-center justify-center'>
-      <h1 className='text-3xl mt-52'>You are on {up}</h1>
-      <div className='flex flex-col items-center justify-center p-10 h-48 border-2 border-white mt-20'>
+      <h1 className='text-3xl mt-52 font-bold'>You are on {up}</h1>
+      <div className='flex flex-col items-center justify-center p-10 h-48 border-2 border-white mt-20 rounded-lg'>
         <div>
           <button
             className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'
@@ -59,7 +59,7 @@ const Counter = () => {
             - 1
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
             onClick={awayFive}
           >
             - 5
