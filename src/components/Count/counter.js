@@ -17,6 +17,9 @@ const Counter = () => {
   const awayOne = () => {
     setUp(up - 1);
   };
+  const awayFive = () => {
+    setUp(up + 5);
+  };
 
   const reset = () => {
     setUp(0);
