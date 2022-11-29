@@ -35,37 +35,37 @@ const Counter = () => {
       <div className='flex flex-col items-center justify-center p-10 h-48 border-2 border-white mt-20 rounded-lg'>
         <div>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold'
             onClick={addTen}
           >
             + 10
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold'
             onClick={addOne}
           >
             + 1
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4 font-bold'
             onClick={addFive}
           >
             + 5
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4 font-bold'
             onClick={awayOne}
           >
             - 1
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4 font-bold'
             onClick={awayFive}
           >
             - 5
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7'
+            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 font-bold'
             onClick={awayTen}
           >
             - 10
