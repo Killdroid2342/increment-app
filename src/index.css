@@ -19,9 +19,6 @@ body {
   /* color: white; */
 }
 @layer components {
-  .center {
-    @apply flex flex-col items-center justify-center;
-  }
 }
 @tailwind base;
 @tailwind components;
