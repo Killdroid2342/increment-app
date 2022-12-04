@@ -35,37 +35,37 @@ const Counter = () => {
       <div className='flex flex-col items-center justify-center p-10 h-48 border-2 border-white mt-20 rounded-2xl'>
         <div>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl'
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={addTen}
           >
             + 10
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl'
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={addOne}
           >
             + 1
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4 font-bold rounded-2xl'
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={addFive}
           >
             + 5
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4 font-bold rounded-2xl'
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={awayOne}
           >
             - 1
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 mr-4 font-bold rounded-2xl'
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={awayFive}
           >
             - 5
           </button>
           <button
-            className='border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 font-bold rounded-2xl'
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3.5 pr-3 mb-7 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={awayTen}
           >
             - 10
@@ -73,7 +73,7 @@ const Counter = () => {
         </div>
         <button
           onClick={reset}
-          className='border-2 border-white p-2 font-bold rounded-md'
+          className='border-2 border-white p-2 font-bold rounded-md hover:bg-white hover:text-black transition ease-linear text-white'
         >
           Click here to reset
         </button>
