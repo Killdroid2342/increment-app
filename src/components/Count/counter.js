@@ -42,15 +42,15 @@ const Counter = () => {
           </button>
           <button
             className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
-            onClick={addOne}
-          >
-            + 1
-          </button>
-          <button
-            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
             onClick={addFive}
           >
             + 5
+          </button>
+          <button
+            className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
+            onClick={addOne}
+          >
+            + 1
           </button>
           <button
             className='text-white border-2 border-white pt-1 pb-1 mt-3 pl-3 pr-3 mr-4 font-bold rounded-2xl hover:bg-white hover:text-black transition ease-linear'
