@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Increment-App
 
 The Increment App is a beginner-friendly project that offers users a straightforward and user-friendly experience. It begins with the number 0 as your starting point, and from there, you have the flexibility to add or subtract numbers as needed. This uncomplicated yet engaging app serves as an excellent starting point for those looking to explore basic arithmetic operations and develop their mathematical skills. Whether you're a novice or simply seeking a straightforward calculator, The Increment App provides a user-friendly platform for practicing and honing your arithmetic abilities.
@@ -47,6 +45,4 @@ https://increment-app.vercel.app/
 
 ## Built With
 
-- # React (JavaScript)
-  This is one of my first projects and this is a simple increment app. This allows you to click buttons to change the number (to make the number bigger or smaller).
-  > > > > > > > 431c470eeb77bfa9ff4d174099186c2539c2ca22
+- React (JavaScript)
